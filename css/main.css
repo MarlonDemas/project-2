@@ -1,0 +1,86 @@
+*,
+::after, 
+::before {
+    box-sizing: border-box;
+}
+/* This is the styling done for my container */
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* This section styles the whole body of the web page */
+body {
+    font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
+    border-top: 13px solid #3a3a3a;
+    margin: 0;
+    background-color: #0a0a0a;
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 40px;
+    text-align: center;
+}
+/* This styles all the hr lines within the website*/
+hr {
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+/* This styles everything in the header itself */
+header {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 60px 0 0 0;
+}
+/* This styles the image within the header */
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/* This styles the h1 heading within the header */
+header h1 {
+    font-weight: 900;
+    padding: 0;
+    margin: 20px 0 -10px 0 ;
+    color: #FFFFFF;
+    font-size: 1.65em;
+    line-height: 0.5;
+}
+/* This styles the paragraph within the header */
+header p {
+    line-height: 1.3;
+    font-size: 2.13rem;
+    padding: 0 75px;
+    margin-bottom: 60px;
+}
+/* This styles the hr line that is within the header itself */
+header hr {
+    background-color: #3a3a3a00;
+    height: 4px;
+    border-top: none;
+    border-bottom: 3px double #6f6f6f;
+    border-left: none;
+    border-right: none;
+}
+/* This styles all the anchor tags within the website */
+a {
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
+}
+/* This styles the link color */
+a:link {
+    color: yellow;
+}
+/* This styles the link color after you have visited the page */
+a:visited {
+    color: yellow;
+}
+/* This styles the link color when you hover over it */
+a:hover {
+    color: grey;
+}
+/* This styles the color of the link when it is active or when you click on it */
+a:active {
+    color: rgb(66, 33, 33);
+}
