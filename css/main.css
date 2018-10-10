@@ -103,12 +103,12 @@ main {
     padding: 0;
 }
 
-.grid-wrapper {
+.works-grid-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 2fr 1fr);
     grid-row-gap: 4px;
-    grid-column-gap: 15px;
+    grid-column-gap: 25px;
 }
 
 .item {
@@ -171,3 +171,36 @@ section {
     padding-bottom: 72px;
 }
 
+.item:hover {
+    opacity: .65;
+}
+
+.photography-grid-wrapper {
+    grid-gap: 22px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.photography-grid-wrapper .item {
+    min-height: 400px;
+    height: auto;
+}
+
+.photography-grid-wrapper .item1 {
+    background-image: url('https://jonchretien.com/img/stripes.jpg');
+}
+.photography-grid-wrapper .item2 {
+    background-image: url('https://jonchretien.com/img/camera.jpg');
+}
+.photography-grid-wrapper .item3 {
+    background-image: url('https://jonchretien.com/img/biker.jpg');
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.photography-grid-wrapper .item4 {
+    background-image: url('https://jonchretien.com/img/ballerina.jpg');
+}
+.photography-grid-wrapper .item5 {
+    background-image: url('https://jonchretien.com/img/warriors.jpg');
+}
