@@ -120,6 +120,7 @@ main {
     background-position: center;
     height: auto;
     min-height: 300px;
+    transition: background-color .3s ease-in-out;
 }
 
 .thumbnail {
