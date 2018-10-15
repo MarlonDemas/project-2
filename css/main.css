@@ -207,3 +207,36 @@ section {
 .photography-grid-wrapper .item5 {
     background-image: url('https://jonchretien.com/img/warriors.jpg');
 }
+
+.albums-grid-wrapper {
+    grid-column-gap: 24px;
+    grid-row-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.albums-grid-wrapper .item {
+    min-height: 292px;
+    height: auto;
+}
+
+.albums-grid-wrapper .item1 {
+    background-image: url('https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417');
+}
+.albums-grid-wrapper .item2 {
+    background-image: url('https://i.scdn.co/image/b8fdb9c4467c35499c2a554e7ae68842a15c2f62');
+}
+.albums-grid-wrapper .item3 {
+    background-image: url('https://i.scdn.co/image/659f05e9ce15d0b81ea191937c2c3a3aecec160c');
+}
+.albums-grid-wrapper .item4 {
+    background-image: url('https://i.scdn.co/image/5026fddc6c0b69e931ae99130f15d4214f1e7d41');
+}
+.albums-grid-wrapper .thumbnail {
+    text-align: center;
+    font-size: 1.2em;
+}
+.albums-grid-wrapper .thumbnail h3 {
+    font-size: 1em;
+}
