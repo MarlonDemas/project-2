@@ -99,7 +99,7 @@ h3 {
     color: yellow;
     margin-top: 4px;
     margin-bottom: 4px;
-    font-size:24px;
+    font-size: 1em;
 }
 
 main {
@@ -235,8 +235,40 @@ section {
 }
 .albums-grid-wrapper .thumbnail {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .albums-grid-wrapper .thumbnail h3 {
     font-size: 1em;
+}
+
+footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.footer-container {
+    padding: 50px 0;
+}
+
+footer div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-size: 1em;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
